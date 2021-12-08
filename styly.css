@@ -1,0 +1,77 @@
+body {background-image: url(data:image/jpeg;base64,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);
+      background-size:8000px;}
+header {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 150%; 
+        height:200px;
+        border: solid;
+        border-color: rgb(255, 121, 121);
+        color: white;
+        box-sizing: border-box;
+        background-size: cover;
+        text-align: center;
+        background-image: url(https://files.123freevectors.com/wp-content/original/163875-orange-black-and-white-background-design.jpg);
+        }
+nav{
+    box-sizing: border-box;
+    width: 15%; 
+    margin: 0.2cm; 
+    margin-top: 0.5cm;
+    color: rgb(119, 50, 50);
+    height: 10%;
+    margin-left: 10%;
+    border: solid  rgb(255, 133, 133);
+    text-align: center;}
+footer{
+    clear:right/*zrušení obtékání*/; 
+    margin-bottom: auto;
+    margin-top: 0.5cm;
+    color: white;
+    position: absolute;
+    bottom: 10;
+    box-sizing: border-box;
+    border: solid rgb(255, 133, 133);
+    width:80%;
+    margin-left: 10%;
+    background-image: url(https://files.123freevectors.com/wp-content/original/163875-orange-black-and-white-background-design.jpg);
+    }
+div{display: flex;}
+a{display: block; 
+    text-decoration: none; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+main {width:60%; 
+    margin: 0.2cm; 
+    color:white;
+    margin-top: 0.5cm;
+    border:solid; 
+    border-color: white;
+   }
+aside {width: 20%; 
+    margin: 0.2cm; 
+    margin-top: 0.5cm;
+    color: rgb(255, 133, 133);
+    height: 10%;
+    box-sizing: border-box;
+    border: solid  rgb(255, 133, 133);
+    width: 15%;
+    margin-right: 10%;
+    text-align: center;
+    }
+p {font-size: 120% ;
+    text-align: center;
+    }
+h2{font-size: 200%;
+   color:  rgb(255, 133, 133);
+  
+    }
+h3{font-size: 150%;
+   color: rgb(255, 133, 133);
+   text-align: center;
+    }
+td{color: white}
+
+

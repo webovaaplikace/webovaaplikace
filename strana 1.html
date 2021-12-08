@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Jan Šlouf">
+    <title>Document</title>
+    <link rel="stylesheet" href="styly.css">
+    <style>
+        .flex-container {
+          display: flex;
+        }
+        
+        .flex-container > div {
+         padding: 20px;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h2>Bezpečnostní rizika</h2> 
+    </header>
+    
+<div class="flex-container">   
+    <nav>
+        <h3>Odkazy mezi stránkami</h3>
+        <a href="bezpečnost webových stránek (1).html">Hlavní strana</a>
+        <a href="strana 2.html">Heslo a jeho bezpečnost</a>
+        <a href="strana 3.html">Tabulka s nejhoršími hesly</a>
+        <a href="strana 4.html">Formulář hesla</a>
+    </nav>
+    
+    <main>
+        <h2>Bezpečnostní rizka</h2>
+        <h3>1. Injekce</h3><p> Zranitelnosti vsunutím škodlivého kódu jako např. SQL Injection. Nastává pokud neověřená data jsou použita v dotazu nebo příkazu a interpretována. Může vést k úniku a ztrátě dat nebo spuštění nežádoucího kódu.</p>
+        <h3>2. Nefunkční autentizace</h3>	<p>Autentizace je často implementována chybně nebo nedostatečně. Může vést k převzetí uživatelských účtů nebo celého systému.</p>
+        <h3>3. Nezabezpečení citlivých dat</h3>	<p>Nezabezpečený přenos a uchovávání citivých dat. Útočník může tato data změnit nebo zneužít k dalším útokům.</p>
+        <h3>4. XML External Entities (XXE)</h3>	<p>Externí entity v XML mohou být zneužity k přístupu k chráněným souborům, spuštění škodlivého kódu nebo DDoS útokům.</p>
+        <h3>5. Nefunkční kontrola přístupu</h3>	<p>Útočník může využít chyb v kontrole přístupu, aby se dostal k citlivým datům a chráněným funkcím systému.</p>
+        <h3>6. Chybná konfigurace</h3>	<p>Použití výchozí konfigurace, nekompletní konfigurace, detailní výpis chyb na klientovi, špatné HTTP hlavičky a další.</p>
+        <h3>7. Cross-Site Scripting (XSS)</h3>	<p>Pokud není sanitizován vstup od uživatele, může útočník spustit škodlivý javascriptový kód v prohlížeči oběti.</p>
+        <h3>8. Nezabezpečená Deserializace</h3>	<p>Nezabezpečená deserializace může vést k řadě útoků včetně spuštění škodlivého kódu.</p>
+        <h3>9. Použití komponent se známými zranitelnostmi</h3>	<p>Útočník může využít zranitelnosti v komponentách a frameworcích třetích stran, zvláště pokud jsou použity neaktualizované verze se známými zranitelnostmi.</p>
+        <h3>10. Nedostatečné logování a monitorování</h3>	<p>Nedostatečné logování a monitorování včetně chybějící automatické notifikace znemožňuje včasnou reakci na útoky a umožňuje útočníkům nerušeně hledat zranitelnosti v aplikaci.</p>
+    </main>
+   
+    <aside>
+        <h3>Odkazy na zdroje</h3>
+        <a href="https://cs.wikipedia.org/wiki/Webov%C3%A1_aplikace">Webová aplikace</a>
+        <a href="https://cs.wikipedia.org/wiki/Bezpe%C4%8Dnost_na_internetu">Bezpečnost</a>
+        <a href="https://zdrojak.cz/clanky/10-nejzavaznejsich-zranitelnosti-webovych-aplikaci-podle-owasp/">rizika</a>
+        <a href="https://cs.wikipedia.org/wiki/Heslo">Heslo</a>
+        <a href="https://www.w3schools.com//">w3schools</a>
+    </aside>
+</div>
+    <footer>
+        <P>Jan Šlouf, David Záhořík, Jakub Nový</P>
+    </footer>
+        
+</html>
